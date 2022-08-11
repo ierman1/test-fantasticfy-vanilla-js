@@ -1,0 +1,1 @@
+# Test Fantasticfy (Vanilla JS)
