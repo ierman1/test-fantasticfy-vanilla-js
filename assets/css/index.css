@@ -1,3 +1,25 @@
 body {
     display: flex;
 }
+
+#image-preview {
+    position: fixed;
+}
+
+#breeds-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#breeds-container img {
+    cursor: pointer;
+    height: 100px;
+}
+
+#breeds-container > div.hidden {
+    display: none;
+}
+
+#breeds-container.reverse {
+    flex-direction: column-reverse !important;
+}
